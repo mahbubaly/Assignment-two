@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.common-text {
+    color: #727272;
+
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.primary-btn:hover {
+    border: 5px solid #0C8CE9;
+
+}
+
+.primary-text-org {
+    color: orange;
+
+}
+
+.primary-text-gray {
+    color: #727272;
+}
+
+/*------------------------
+ Header and nav menu
+ ------------------------*/
+
+.header {
+    background-color: #FFF4E7;
+}
+
+.nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-manu ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+}
+
+.nav-manu ul a {
+    text-decoration: none;
+    color: #424242;
+    ;
+}
+
+/*------------------ 
+    Banner section
+------------------*/
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.banner-info {
+    text-align: center;
+
+
+}
+
+.banner-info h1 {
+    margin-bottom: 20px;
+
+}
+
+.banner-info p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #727272;
+    ;
+
+}
+
+.banner-img img {
+    width: 100%;
+    align-items: center;
+
+}
+
+/* --------------------------------------------------------------------
+Main container and images
+---------------------------------------------------------------------*/
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+
+
+}
+
+.articals-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.articals-images img {
+    width: 100%;
+}
+
+.artical-details {
+    width: 537px;
+
+}
+
+.artical-details h3 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.artical-details p {
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------
+    Features and about architect
+ -------------------------------*/
+.more-articals {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.features {
+    width: 586px;
+
+
+}
+
+.feature-titel {
+    font-size: 45px;
+    padding: 0 20px;
+    border-left: 4px solid #FF900E;
+}
+
+.feature-description {
+    margin-top: 20px;
+    margin-bottom: 70px
+}
+
+.feature-2 {
+    margin-bottom: 20px;
+}
+
+.feature-3 {
+    margin-bottom: 20px;
+}
+
+.feature-4 {
+    margin-bottom: 20px;
+}
+
+.feature-5 {
+    margin-bottom: 20px;
+}
+
+.information {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.feature-details {
+    padding: 15px;
+    box-shadow: 3px 3px 4px rgb(218, 213, 213);
+}
+
+.unique-btn {
+    width: 342px;
+    height: 200px;
+}
+.exprience-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+.btn-year{
+    font-size: 65px;
+}
+.exp-btn{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ---------------------
+media Queries 
+ -------------------------*/
+@media (max-width: 576px) {
+
+    .nav,
+    .nav-manu ul,
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articals-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    .articals-images img,
+    .architect img {
+        width: 100%;
+    }
+
+    .artical-details {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .more-articals {
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features {
+        width: 100%;
+        padding: 10px;
+
+    }
+    .exprience-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        
+    }
+
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/*  
+ // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/*  
+ // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
