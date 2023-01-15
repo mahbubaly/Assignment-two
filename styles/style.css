@@ -142,7 +142,6 @@ Main container and images
     Features and about architect
  -------------------------------*/
 .more-articals {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,6 +319,7 @@ Articles and Facts
 .Sponspors-logo{
     display: flex;
     gap: 30px;
+    filter: grayscale(100%)
 }
 
 .footer-part{
