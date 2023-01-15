@@ -152,6 +152,7 @@ Main container and images
 
 .features {
     width: 586px;
+    
 
 
 }
@@ -203,7 +204,8 @@ Main container and images
     justify-content: center;
     position: relative;
     top: -200px;
-    left: 50px;
+    left: 250px;
+    width: 75%;
 }
 .btn-year{
     font-size: 65px;
@@ -211,6 +213,138 @@ Main container and images
 .exp-btn{
     font-size: 25px;
 }
+
+/* --------------------------------------
+Articles and Facts
+ -------------------------------------*/
+.fact-section{
+    padding: 20px;
+    width: 586px;
+    margin-bottom:50px;
+    
+    text-align: left;
+    
+    
+}
+.facts h3{
+    margin-bottom: 10px;
+}
+
+.achievements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+    
+}
+.achievement-info{
+    text-align: center;
+    border: 2px solid orange;
+    padding: 10px;
+    
+}
+.achievement-info:hover{
+    border: 2px solid rgb(13, 0, 255);
+
+}
+
+/* ---------------------------------------------------
+                 Team Members
+-----------------------------------------------------*/
+
+.our-team{
+    width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.members{
+    margin-top: 50px;
+    display: flex;
+    
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team-member{
+    padding: 20px; 
+    box-shadow: 5px 5px 5px rgb(209, 205, 205);
+
+}
+.team-member:hover{
+    
+    box-shadow: 5px 5px 5px 5px rgb(163, 162, 161);
+}
+
+.team-member img{
+    border-radius: 5px;
+    width: 100%;
+   
+}
+.See-more {
+    display: flex;
+    justify-content: flex-end;
+    color: #575652;
+    align-items: center;
+
+
+}
+.See-more:hover{
+    color: red;
+}
+
+/*-------------------------------------------------------- 
+              Sponsor 
+---------------------------------------------*/
+.Sponspors{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sponspors-titel{
+    text-align: center;
+    width: 542px;
+
+    margin-bottom: 50px;
+}
+.Sponspors-titel h2{
+    margin-bottom: 20px;
+}
+.Sponspors-logo{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-part{
+    padding: 40px 0px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF4E7;
+    color: #424242;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -271,10 +405,43 @@ media Queries
         position: relative;
         top: 0px;
         left: 0px;
+        width: 100%;
+        
         
     }
-
-
+    .fact-section{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .achievements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 124px;
+    }
+    .our-team{
+        width: 100%;
+    }
+    .members{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-member img{
+        
+        width: 100%;
+       
+    }
+    .Sponspors-titel{
+        
+        width:100%;
+    
+        
+    }
+    .Sponspors-logo{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
